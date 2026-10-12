@@ -29,7 +29,20 @@ Troubleshooting: https://github.com/Crosis47/tmodloader/wiki/Troubleshooting</Ov
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <ExtraParams>--stop-timeout=120</ExtraParams>
   <License>https://github.com/Crosis47/unraid-apps/blob/master/LICENSE</License>
-  <Screenshot>https://raw.githubusercontent.com/Crosis47/tmodloader/master/docs/images/dashboard-overview.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-overview.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-worlds.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-backups.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-new-world.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-journey.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-restore-review.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-workshop.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-runtime-updates.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-mod-configs.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-container-update.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-players.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-password.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-scheduling.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/wiki/Crosis47/tmodloader/images/dashboard-theme-light.png</Screenshot>
   <!-- Required ports and storage -->
   <Config Name="Game port" Target="7777" Default="7777" Mode="tcp" Description="Host TCP port players connect to. Keep the container port at 7777.&#160;&#160;&#160;&#160;||&#160;&#160;&#160;&#160;Wiki: https://github.com/Crosis47/tmodloader/wiki/Networking-and-Access#game-connections" Type="Port" Display="always" Required="true" Mask="false">7777</Config>
   <Config Name="Dashboard port" Target="8080" Default="8080" Mode="tcp" Description="Host dashboard port. Keep the container port at 8080; the WebUI button follows this mapping.&#160;&#160;&#160;&#160;||&#160;&#160;&#160;&#160;Wiki: https://github.com/Crosis47/tmodloader/wiki/Networking-and-Access#change-the-dashboard-port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
