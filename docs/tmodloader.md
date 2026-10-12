@@ -108,6 +108,21 @@ for more details.
 - Masked password and token fields hide input in the form, but their values are
   still stored in Docker and the saved Unraid configuration.
 
+## Wiki guides
+
+| Guide | What it covers |
+| --- | --- |
+| [Dashboard setup](https://github.com/Crosis47/tmodloader/wiki/Web-Dashboard#access-and-credentials) | First-run setup and administrator credentials |
+| [Settings ownership](https://github.com/Crosis47/tmodloader/wiki/Configuration#choose-who-manages-settings) | Choosing between dashboard and environment-managed settings |
+| [Networking and proxy access](https://github.com/Crosis47/tmodloader/wiki/Networking-and-Access) | Game connections, dashboard ports, and HTTPS reverse proxies |
+| [Storage and updates](https://github.com/Crosis47/tmodloader/wiki/Updates-and-Storage) | Persistent folders, container updates, and runtime updates |
+| [Worlds and Journey mode](https://github.com/Crosis47/tmodloader/wiki/Worlds-and-Playthroughs) | World creation, saved playthroughs, and Journey permissions |
+| [Mods and Workshop](https://github.com/Crosis47/tmodloader/wiki/Mods-and-Workshop) | Workshop downloads, mod selections, and configuration files |
+| [Backups and recovery](https://github.com/Crosis47/tmodloader/wiki/Backups-and-Recovery) | Backup schedules, archive verification, and restoration |
+| [Autosave and restart schedules](https://github.com/Crosis47/tmodloader/wiki/Configuration#scheduling) | Autosave and scheduled server restarts |
+| [All settings and defaults](https://github.com/Crosis47/tmodloader/wiki/Configuration#defaults-reference) | The complete settings reference |
+| [Troubleshooting](https://github.com/Crosis47/tmodloader/wiki/Troubleshooting) | Diagnosing setup, startup, and connection problems |
+
 ## Help
 
 Check the container logs and the
