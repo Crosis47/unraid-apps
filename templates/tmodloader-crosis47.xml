@@ -10,19 +10,7 @@
   <Project>https://github.com/Crosis47/tmodloader</Project>
   <ReadMe>https://raw.githubusercontent.com/Crosis47/unraid-apps/master/docs/tmodloader.md</ReadMe>
   <TemplateURL>https://raw.githubusercontent.com/Crosis47/unraid-apps/master/templates/tmodloader-crosis47.xml</TemplateURL>
-  <Overview>Independently maintained Terraria tModLoader dedicated server with a web dashboard for worlds, Workshop mods, players, configuration, and backups. Inspired by JACOBSMILE/tmodloader1.4. First startup requires internet access to install the game runtime. Open the container logs for the one-time setup code, then open WebUI and create your administrator credential. The game waits for setup. Manage game settings in the dashboard after setup; saved dashboard settings take precedence over environment defaults. Use dedicated data and backup folders; startup repairs their ownership to UID/GID 1000:1000. Keep the dashboard on a trusted LAN or use an HTTPS reverse proxy.
-
-Wiki guides:
-Dashboard setup: https://github.com/Crosis47/tmodloader/wiki/Web-Dashboard#access-and-credentials
-Settings ownership: https://github.com/Crosis47/tmodloader/wiki/Configuration#choose-who-manages-settings
-Networking and proxy access: https://github.com/Crosis47/tmodloader/wiki/Networking-and-Access
-Storage and updates: https://github.com/Crosis47/tmodloader/wiki/Updates-and-Storage
-Worlds and Journey mode: https://github.com/Crosis47/tmodloader/wiki/Worlds-and-Playthroughs
-Mods and Workshop: https://github.com/Crosis47/tmodloader/wiki/Mods-and-Workshop
-Backups and recovery: https://github.com/Crosis47/tmodloader/wiki/Backups-and-Recovery
-Autosave and restart schedules: https://github.com/Crosis47/tmodloader/wiki/Configuration#scheduling
-All settings and defaults: https://github.com/Crosis47/tmodloader/wiki/Configuration#defaults-reference
-Troubleshooting: https://github.com/Crosis47/tmodloader/wiki/Troubleshooting</Overview>
+  <Overview>Run a modded Terraria dedicated server with a web dashboard for worlds, Workshop mods, players, settings, backups, and restart schedules. First startup needs internet access. Find the one-time setup code in the container logs, then open WebUI to create your administrator credential. Use dedicated data and backup folders, and keep the dashboard on a trusted LAN or behind an HTTPS reverse proxy. See the README for installation and configuration. Independently maintained; not affiliated with Re-Logic or the tModLoader team.</Overview>
   <Category>GameServers:</Category>
   <ExtraSearchTerms>terraria tmodloader mods workshop</ExtraSearchTerms>
   <Icon>https://media.sys.truenas.net/apps/tmodloader/icons/icon.png</Icon>
